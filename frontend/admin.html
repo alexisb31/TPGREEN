@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Green IT</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/admin.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Administration du site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Retour au site</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gestion-articles">
+            <h2>Gestion des Articles</h2>
+            <form id="article-form">
+                <label for="article-title">Titre :</label>
+                <input type="text" id="article-title" required>
+                <label for="article-content">Contenu :</label>
+                <textarea id="article-content" required></textarea>
+                <button type="submit">Ajouter l'article</button>
+            </form>
+        </section>
+
+        <section id="gestion-prestations">
+            <h2>Gestion des Prestations</h2>
+            <form id="prestation-form">
+                <label for="prestation-title">Titre :</label>
+                <input type="text" id="prestation-title" required>
+                <label for="prestation-description">Description :</label>
+                <textarea id="prestation-description" required></textarea>
+                <button type="submit">Ajouter la prestation</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; GREEN IT ESGI CORPORATE</p>
+    </footer>
+</body>
+</html>
