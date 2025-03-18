@@ -76,13 +76,17 @@ nav ul li a:hover {
 .carousel-slide img:hover {
     transform: scale(1.05);
 }
-
 .carousel-content {
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    margin-top: -50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    background: rgb(199, 252, 219);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Boutons du carrousel */
@@ -141,6 +145,11 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out;
+}
+
+section h2 {
+    text-align: center;
+    color: #16a085;
 }
 
 /* Articles */
@@ -236,6 +245,26 @@ section {
 #contact-form button:hover {
     background: #1abc9c;
     transform: scale(1.05);
+}
+
+/* Informations de contact */
+.contact-info-container {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Mentions légales */
+.mentions-container {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
 }
 
 /* Footer */
