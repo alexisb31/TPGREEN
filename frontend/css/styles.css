@@ -329,6 +329,73 @@ section h2 {
     text-align: center;
 }
 
+/* Styles pour les formulaires d'administration */
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #16a085;
+}
+
+form button {
+    background: #16a085;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background: #1abc9c;
+    transform: scale(1.05);
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+ul li button:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+
 /* Footer */
 footer {
     text-align: center;
