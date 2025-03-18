@@ -8,6 +8,41 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Mode sombre */
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+body.dark-mode header {
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+}
+
+body.dark-mode nav ul li a {
+    color: #f4f4f4;
+}
+
+body.dark-mode nav ul li a:hover {
+    color: #2c3e50;
+}
+
+body.dark-mode .carousel-content {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .contact-info-container,
+body.dark-mode .mentions-container,
+body.dark-mode #contact-form,
+body.dark-mode .prestation-item,
+body.dark-mode #articles article {
+    background: #444;
+    color: #f4f4f4;
+}
+
+body.dark-mode footer {
+    background: #1abc9c;
+}
+
 /* Header */
 header {
     background: linear-gradient(135deg, #2c3e50, #16a085);
@@ -255,6 +290,33 @@ section h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-info-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-container h3 {
+    color: #16a085;
+    margin: 10px 0;
+}
+
+.contact-info-container p {
+    color: #333;
+    margin: 5px 0;
 }
 
 /* Mentions légales */

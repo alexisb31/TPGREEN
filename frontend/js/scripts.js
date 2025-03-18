@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         // Affichage des informations de contact
         const contactInfo = document.getElementById("contact-info");
         contactInfo.innerHTML = `
+            <h3>Contact</h3>
             <p>Email: ${contact.email}</p>
             <p>Téléphone: ${contact.phone}</p>
             <p>Adresse: ${contact.address}</p>
@@ -90,4 +91,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
 
     showSlide(currentSlide);
+
+    // Gestion du mode sombre
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    });
 });
