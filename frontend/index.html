@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green IT - Site Éco-Responsable</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre site éco-conçu</h1>
+        <nav>
+            <ul>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#prestations">Prestations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#mentions-legales">Mentions Légales</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="carousel">
+            <h2>Nos Prestations</h2>
+            <div class="carousel-container">
+                <button id="prev">&#10094;</button>
+                <div class="carousel-slide">
+                    <img src="assets/prestation1.webp" alt="Prestation 1" loading="lazy">
+                    <div class="carousel-content">
+                        <h3>Audit de performance</h3>
+                        <p>Analyse de la consommation énergétique de vos sites.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/prestation2.webp" alt="Prestation 2" loading="lazy">
+                    <div class="carousel-content">
+                        <h3>Développement de sites éco-conçus</h3>
+                        <p>Conception de sites optimisés pour la vitesse, la consommation énergétique et le respect des principes Green IT.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/prestation3.webp" alt="Prestation 3" loading="lazy">
+                    <div class="carousel-content">
+                        <h3>Optimisation de l’existant</h3>
+                        <p>Réduction du poids des pages, compression des médias et amélioration de l’accessibilité pour une navigation plus écologique.</p>
+                    </div>
+                </div>
+                <button id="next">&#10095;</button>
+            </div>
+        </section>
+        
+        <section id="articles">
+            <h2>Nos Articles</h2>
+            <div id="articles-container"></div> 
+        </section>
+
+        <section id="prestations">
+            <h2>Nos Prestations</h2>
+            <div id="prestations-container"></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+            <div id="contact-info"></div>
+        </section>
+
+        <section id="mentions-legales">
+            <h2>Mentions Légales</h2>
+            <p id="mentions-content"></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; GREEN IT ESGI CORPORATE</p>
+        <button id="dark-mode-toggle">Mode Sombre</button>
+    </footer>
+</body>
+</html>

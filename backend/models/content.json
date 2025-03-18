@@ -1,0 +1,62 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "L'écoconception web",
+      "content": "Réduire l'empreinte carbone des sites web grâce à l'optimisation des ressources."
+    },
+    {
+      "id": 2,
+      "title": "Hébergement vert",
+      "content": "Pourquoi choisir un hébergeur écologique ? Avantages et solutions."
+    },
+    {
+      "id": 3,
+      "title": "Les formats d'images écologiques",
+      "content": "Pourquoi privilégier les formats WebP et AVIF pour réduire la taille des images et limiter la consommation énergétique des serveurs ?"
+    },
+    {
+      "id": 4,
+      "title": "Le lazy loading : un atout écologique",
+      "content": "Charger uniquement les images et contenus visibles pour limiter les requêtes inutiles et améliorer la performance."
+    },
+    {
+      "id": 5,
+      "title": "Dark mode : gadget ou réelle économie d’énergie ?",
+      "content": "Découvrez l’impact du mode sombre sur la consommation énergétique des écrans OLED et son intérêt pour l’expérience utilisateur."
+    }
+  ],
+  "prestations": [
+    {
+      "id": 1,
+      "title": "Audit de performance",
+      "description": "Analyse de la consommation énergétique de vos sites."
+    },
+    {
+      "id": 2,
+      "title": "Développement de sites éco-conçus",
+      "description": "Conception de sites optimisés pour la vitesse, la consommation énergétique et le respect des principes Green IT."
+    },
+    {
+      "id": 3,
+      "title": "Optimisation de l’existant",
+      "description": "Réduction du poids des pages, compression des médias et amélioration de l’accessibilité pour une navigation plus écologique."
+    },
+    {
+      "id": 4,
+      "title": "Formation Green IT",
+      "description": "Sessions de formation pour sensibiliser et former vos équipes aux bonnes pratiques du Green IT."
+    },
+    {
+      "id": 5,
+      "title": "Consulting en stratégie numérique durable",
+      "description": "Accompagnement dans la définition et la mise en œuvre de votre stratégie numérique durable."
+    }
+  ],
+  "contact": {
+    "email": "contact@greenit.com",
+    "phone": "+33 6 12 34 56 78",
+    "address": "123 Rue du Green IT, Paris, France"
+  },
+  "mentionsLegales": "Mentions légales de l'entreprise disponibles ici."
+}
